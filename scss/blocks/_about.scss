@@ -1,0 +1,60 @@
+.about__box{
+   display: flex;
+   align-items: center;
+   padding: 70px 0px;
+}
+.about__info{
+   margin-right: 110px;
+}
+.about__title-case{
+   width: 380px;
+   margin-bottom: 30px;
+}
+.about__title{
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 50px;
+   line-height: 120%;
+   color: #000000;
+   margin: 0px;
+}
+
+.about__describe-case{
+   width: 490px;
+   border-left: 3px solid #888888;
+   padding-left: 40px;
+   margin-bottom: 30px;
+}
+.about__describe{
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   color: #777777;
+   margin: 0px;
+}
+.about__buy-link{
+   display: inline-block;
+   width: 260px;
+   background-color: #EA625C;
+   padding: 12px 0px;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 150%;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   text-decoration: none;
+   transition: 0.2s ease;
+}
+.about__buy-link:hover{
+   background-color: #C9514C;
+}
+.about__img{
+   width: 400px;
+   height: 600px;
+}

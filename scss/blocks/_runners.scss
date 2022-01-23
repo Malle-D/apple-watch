@@ -1,0 +1,58 @@
+.runners{
+   padding: 240px 0px;
+   background-image: url(../img/runners.png);
+   background-position: calc(50% + 0px) calc(50% + 0px);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;
+}
+.runners__inner{
+   width: 490px;
+   margin-left: auto;
+}
+.runners__title{
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 50px;
+   line-height: 120%;
+   color: #FFFFFF;
+   margin-top: 0px;
+   margin-bottom: 30px;
+}
+.runners__describe-case{
+   width: 490px;
+   border-left: 3px solid #FFFFFF;
+   padding-left: 40px;
+   margin-bottom: 30px;
+}
+.runners__describe{
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   color: #FFFFFF;
+   margin: 0px;
+}
+.runners__link{
+   display: inline-block;
+   width: 260px;
+   background-color: #EA625C;
+   padding: 12px 0px;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 150%;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   text-decoration: none;
+   transition: 0.2s ease;
+}
+.runners__link:hover{
+   background-color: #C9514C;
+}
